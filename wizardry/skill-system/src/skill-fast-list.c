@@ -15,7 +15,7 @@ struct SkillFastList *GetUnitSkillFastList(struct Unit *unit)
         list = gSkillFastLists[0];
     }
     else if (UNIT_PID(unit) == gSkillFastLists[1]->pid) {
-        gSkillFastListNext = 0;
+        *gSkillFastListNext = 0;
         list = gSkillFastLists[1];
     }
 
@@ -27,7 +27,7 @@ struct SkillFastList *GetUnitSkillFastList(struct Unit *unit)
             *gSkillFastListNext = 1;
 
         /* List advance */
-        list = gSkillFastLists[~*gSkillFastListNext];
+        list = gSkillFastLists[*gSkillFastListNext ? 0 : 1];
 
         list->pid = UNIT_PID(unit);
         list->count = 0;

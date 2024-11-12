@@ -50,14 +50,11 @@ static bool JudgeSkillRom(struct Unit *unit, const u8 skill)
     }
 
     /* Judge level-based skills */
-    for (i = 0; i < SKILL_ROM_LEVEL_LIST_SIZE; i++) {
-        if (unit->level < 5 * i)
-            break;
-
-        if (skill == Skills_PData[unit->pinfo->id].level_skills[i])
+    for (i = 0; i < SKILL_ROM_LEVEL_LIST_SIZE; i += 2) {
+        if (skill == Skills_PData[unit->pinfo->id].level_skills[i] && unit->level >= Skills_PData[unit->pinfo->id].level_skills[i + 1])
             return TRUE;
 
-        if (skill == Skills_JData[unit->jinfo->id].level_skills[i])
+        if (skill == Skills_JData[unit->jinfo->id].level_skills[i] && unit->level >= Skills_JData[unit->jinfo->id].level_skills[i + 1])
             return TRUE;
     }
 
