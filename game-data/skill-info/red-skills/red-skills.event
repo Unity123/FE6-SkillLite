@@ -1,0 +1,9 @@
+ALIGN 4
+SkillInfo_AxeCrazy:
+	/* name */ SHORT 0
+	/* desc */ SHORT SD_AxeCrazy
+	/* icon */ POIN SI_WIP
+	/* priv */ WORD 0
+
+
+InjectSkillInfo(SID_AxeCrazy, SkillInfo_AxeCrazy)

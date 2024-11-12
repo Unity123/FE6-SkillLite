@@ -34,7 +34,7 @@ void DrawSkillPage()
 
 void HelpBoxRedirectStatScreenSkills(struct HelpBoxProc *proc)
 {
-    if (proc->info->msg >= GetUsedSkillCounts(gStatScreenSt.unit)) {
+    if (proc->info->msg >= GetUsedSkillCounts(gStatScreenSt.unit) || proc->info->msg == 0) {
         switch (proc->move_key_bit) {
         case KEY_DPAD_UP:
             HelpBoxTryRelocateUp(proc);

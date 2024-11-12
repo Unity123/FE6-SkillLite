@@ -44,4 +44,6 @@
 #define SID_CritUp 0x30					// Crit+15
 #define SID_Discipline 0x31				// WpnExp*2
 
+#define SID_AxeCrazy 0x32
+
 #endif // SKILL_DEF_H

@@ -9,3 +9,4 @@ New Texts ORG Here[X]
 #include "strings/skills_battle_order.txt"
 #include "strings/skills_battle_can_counter.txt"
 #include "strings/skills_status_getter.txt"
+#include "strings/skills_custom.txt"

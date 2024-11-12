@@ -17,10 +17,15 @@ int GetUnitMaxHp(struct Unit *unit)
 {
     int status;
     msg_func *it;
+    int hp_bonus;
 
     /* Internal modular */
     status = unit->max_hp;
-    status += GetItemHpBonus(GetUnitEquippedWeapon(unit));
+    hp_bonus = GetItemHpBonus(GetUnitEquippedWeapon(unit));
+    if (GetItemKind(GetUnitEquippedWeapon(unit)) == ITEM_KIND_AXE && SkillTester(unit, SID_AxeCrazy)) {
+        hp_bonus *= 2;
+    }
+    status += hp_bonus;
     status += SkillTester(unit, SID_HpBonus) ? 5 : 0;
 
     /* External modular */
@@ -36,10 +41,15 @@ int GetUnitPower(struct Unit *unit)
 {
     int status;
     msg_func *it;
+    int pow_bonus;
 
     /* Internal modular */
     status = unit->pow;
-    status += GetItemPowBonus(GetUnitEquippedWeapon(unit));
+    pow_bonus = GetItemPowBonus(GetUnitEquippedWeapon(unit));
+    if (GetItemKind(GetUnitEquippedWeapon(unit)) == ITEM_KIND_AXE && SkillTester(unit, SID_AxeCrazy)) {
+        pow_bonus *= 2;
+    }
+    status += pow_bonus;
     status += SkillTester(unit, SID_StrBonus) ? 2 : 0;
 
     /* External modular */
@@ -55,10 +65,15 @@ int GetUnitSkill(struct Unit *unit)
 {
     int status;
     msg_func *it;
+    int skl_bonus;
 
     /* Internal modular */
     status = unit->flags & UNIT_FLAG_RESCUING ? unit->skl / 2 : unit->skl;
-    status += GetItemSklBonus(GetUnitEquippedWeapon(unit));
+    skl_bonus = GetItemSklBonus(GetUnitEquippedWeapon(unit));
+    if (GetItemKind(GetUnitEquippedWeapon(unit)) == ITEM_KIND_AXE && SkillTester(unit, SID_AxeCrazy)) {
+        skl_bonus *= 2;
+    }
+    status += skl_bonus;
     status += SkillTester(unit, SID_SklBonus) ? 2 : 0;
 
     /* External modular */
@@ -74,10 +89,15 @@ int GetUnitSpeed(struct Unit *unit)
 {
     int status;
     msg_func *it;
+    int spd_bonus;
 
     /* Internal modular */
     status = unit->flags & UNIT_FLAG_RESCUING ? unit->spd / 2 : unit->spd;
-    status += GetItemSpdBonus(GetUnitEquippedWeapon(unit));
+    spd_bonus = GetItemSpdBonus(GetUnitEquippedWeapon(unit));
+    if (GetItemKind(GetUnitEquippedWeapon(unit)) == ITEM_KIND_AXE && SkillTester(unit, SID_AxeCrazy)) {
+        spd_bonus *= 2;
+    }
+    status += spd_bonus;
     status += SkillTester(unit, SID_SpdBonus) ? 2 : 0;
 
     /* External modular */
@@ -93,10 +113,15 @@ int GetUnitDefense(struct Unit *unit)
 {
     int status;
     msg_func *it;
+    int def_bonus;
 
     /* Internal modular */
     status = unit->def;
-    status += GetItemDefBonus(GetUnitEquippedWeapon(unit));
+    def_bonus = GetItemDefBonus(GetUnitEquippedWeapon(unit));
+    if (GetItemKind(GetUnitEquippedWeapon(unit)) == ITEM_KIND_AXE && SkillTester(unit, SID_AxeCrazy)) {
+        def_bonus *= 2;
+    }
+    status += def_bonus;
     status += SkillTester(unit, SID_DefBonus) ? 2 : 0;
 
     /* External modular */
@@ -112,10 +137,15 @@ int GetUnitResistance(struct Unit *unit)
 {
     int status;
     msg_func *it;
+    int res_bonus;
 
     /* Internal modular */
     status = unit->res;
-    status += GetItemResBonus(GetUnitEquippedWeapon(unit));
+    res_bonus = GetItemResBonus(GetUnitEquippedWeapon(unit));
+    if (GetItemKind(GetUnitEquippedWeapon(unit)) == ITEM_KIND_AXE && SkillTester(unit, SID_AxeCrazy)) {
+        res_bonus *= 2;
+    }
+    status += res_bonus;
     status += SkillTester(unit, SID_ResBonus) ? 2 : 0;
     status += unit->barrier;
 
@@ -132,10 +162,15 @@ int GetUnitLuck(struct Unit *unit)
 {
     int status;
     msg_func *it;
+    int lck_bonus;
 
     /* Internal modular */
     status = unit->lck;
-    status += GetItemLckBonus(GetUnitEquippedWeapon(unit));
+    lck_bonus = GetItemLckBonus(GetUnitEquippedWeapon(unit));
+    if (GetItemKind(GetUnitEquippedWeapon(unit)) == ITEM_KIND_AXE && SkillTester(unit, SID_AxeCrazy)) {
+        lck_bonus *= 2;
+    }
+    status += lck_bonus;
     status += SkillTester(unit, SID_LckBonus) ? 2 : 0;
 
     /* External modular */

@@ -22,4 +22,13 @@ const struct SkillRomTable Skills_PData[MAX_PIDS] = {
             SID_CritUp, 4,
         },
     },
+
+    [PID_MARCUS] = {
+        .default_skills = {
+            SID_AxeCrazy,
+        },
+        .level_skills = {
+
+        },
+    }
 };
