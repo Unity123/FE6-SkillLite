@@ -1,5 +1,41 @@
-# 0x734
-Raiper[X]
+# 0x728
+Iron sword[X]
+
+##
+Iron blade[X]
+
+##
+Steel sword[X]
+
+##
+Steel blade[X]
+
+##
+Silver sword[X]
+
+##
+Silver blade[X]
+
+##
+Slim sword[X]
+
+##
+Poison sword[X]
+
+##
+Brave sword[X]
+
+##
+Light brand[X]
+
+##
+Wyrmslayer[X]
+
+##
+Armorslayer[X]
+
+##
+Rapier[X]
 
 ##
 Killing edge[X]
@@ -45,3 +81,303 @@ Killer lance[X]
 
 ##
 Axereaver[X]
+
+##
+Iron axe[X]
+
+##
+Steel axe[X]
+
+##
+Silver axe[X]
+
+##
+Poison axe[X]
+
+##
+Brave axe[X]
+
+##
+Hand axe[X]
+
+##
+Armads[X]
+
+##
+Hammer[X]
+
+##
+Killer axe[X]
+
+##
+Swordreaver[X]
+
+##
+Devil axe[X]
+
+##
+Halberd[X]
+
+##
+Iron bow[X]
+
+##
+Steel bow[X]
+
+##
+Silver bow[X]
+
+##
+Poison bow[X]
+
+##
+Killer bow[X]
+
+##
+Brave bow[X]
+
+##
+Shortbow[X]
+
+##
+Longbow[X]
+
+##
+Mulagir[X]
+
+##
+Ballista[X]
+
+##
+Iron ballista[X]
+
+##
+Killer ballista[X]
+
+##
+Fire[X]
+
+##
+Thunder[X]
+
+##
+Fimbulvetr[X]
+
+##
+Elfire[X]
+
+##
+Aircalibur[X]
+
+##
+Blizzard[X]
+
+##
+Bolting[X]
+
+##
+Forblaze[X]
+
+##
+Lightning[X]
+
+##
+Divine[X]
+
+##
+Purge[X]
+
+##
+Aureola[X]
+
+##
+Flux[X]
+
+##
+Nosferatu[X]
+
+##
+Eclipse[X]
+
+##
+Fenrir[X]
+
+##
+Apocalypse[X]
+
+##
+Heal[X]
+
+##
+Mend[X]
+
+##
+Recover[X]
+
+##
+Physic[X]
+
+##
+Fortify[X]
+
+##
+Warp[X]
+
+##
+Rescue[X]
+
+##
+Restore[X]
+
+##
+Silence[X]
+
+##
+Sleep[X]
+
+##
+Torch[X]
+
+##
+Hammerne[X]
+
+##
+Watch[X]
+
+##
+Berserk[X]
+
+##
+Unlock[X]
+
+##
+Barrier[X]
+
+##
+Firestone[X]
+
+##
+Divinestone[X]
+
+##
+Darkstone[X]
+
+##
+Secret book[X]
+
+##
+Goddess icon[X]
+
+##
+Angelic robe[X]
+
+##
+Dracoshield[X]
+
+##
+Energy ring[X]
+
+##
+Speedwing[X]
+
+##
+Talisman[X]
+
+##
+Boots[X]
+
+##
+Body ring[X]
+
+##
+Hero crest[X]
+
+##
+Knight crest[X]
+
+##
+Orion's bolt[X]
+
+##
+Elysian whip[X]
+
+##
+Guiding ring[X]
+
+##
+Chest key[X]
+
+##
+Door key[X]
+
+##
+Bridge key[X]
+
+##
+Lockpick[X]
+
+##
+Vulnerary[X]
+
+##
+Elixir[X]
+
+##
+Pure water[X]
+
+##
+Torch[X]
+
+##
+Antitoxin[X]
+
+##
+Member card[X]
+
+##
+Silver card[X]
+
+##
+Gold[X]
+
+##
+Dark breath[X]
+
+##
+Eckesachs[X]
+
+##
+Al's sword[X]
+
+##
+Gant's lance[X]
+
+##
+Tina's staff[X]
+
+##
+Saint's staff[X]
+
+##
+Durandal[X]
+
+##
+White gem[X]
+
+##
+Blue gem[X]
+
+##
+Red gem[X]
+
+##
+Delphi shield[X]
+
+##
+Runesword[X]
+
+##
+Spear[X]
+
+##
+Tomahawk[X]
