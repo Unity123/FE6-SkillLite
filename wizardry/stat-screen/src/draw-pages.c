@@ -25,13 +25,13 @@ void PutStatScreenPersonalInfoPage()
         PutDrawText(gStatScreenSt.text + STATSCREEN_TEXT_POW,
             gUiTmScratchB + TM_OFFSET(1, 1),
             TEXT_COLOR_SYSTEM_GOLD, 0, 0,
-            TEXT("魔力", "Mag"));
+            "Mag");//TEXT("魔力", "Mag"));
     } else {
         /* strength */
         PutDrawText(gStatScreenSt.text + STATSCREEN_TEXT_POW,
             gUiTmScratchA + TM_OFFSET(1, 1),
             TEXT_COLOR_SYSTEM_GOLD, 4, 0,
-            TEXT("力", "Str"));
+            "Str");//TEXT("力", "Str"));
     }
 
     /* display strength/magic stat value */

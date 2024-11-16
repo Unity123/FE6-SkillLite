@@ -43,6 +43,11 @@ POP
 #include "skill-system/skill-system.event"
 #include "battle-system/battle-system.event"
 
+/**************
+ * Red's Shit *
+ **************/
+ #include "poison-rework/poison-rework.event"
+
 /************
  * Features *
  ************/

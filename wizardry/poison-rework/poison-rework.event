@@ -1,0 +1,8 @@
+#ifndef POISON_REWORK
+#define POISON_REWORK
+
+#include "src/poison-rework.lyn.event"
+
+#include "lyn-jump.event"
+
+#endif

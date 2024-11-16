@@ -4,6 +4,8 @@
 #include "Extensions/Hack Installation.txt"
 #include "Extensions/ProcDefinitions.txt"
 
+#include "TableInstaller.event"
+
 #include "include/skill-defs.h"
 
 /**
